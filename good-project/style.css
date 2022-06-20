@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav-section-start */
+#nav {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 60px; 
+    margin: 7px 0px;
+    cursor: pointer;
+}
+.logo span {
+    margin-left: 5px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.menu ul{
+    display: flex;
+    margin-left: 200px;
+
+
+}
+.menu ul li {
+    padding: 0px 15px;
+    text-decoration: none !important;
+    list-style-type: none;
+    margin-top: 15px;
+    color: white;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.menu ul li a:hover{
+    color: darkturquoise;
+   
+}
+
+/* nav-section-end */
+/* hero-section-start */
+#hero{
+    background: url("images/header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+   
+}
+#hero p {
+    padding-top: 220px;
+    color: white;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+#hero h1{
+    padding-top: 13px;
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+#hero span{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 12px;
+    color: white
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 15px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(17, 236, 115);
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: all .9s;
+}
+.btn:hover{
+    background-color: rgb(62, 163, 107);
+}
+/* hero-section-end */
+
+/* about-section-start */
+#about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-about{
+    padding-top: 80px;
+}
+.left-about h1{
+    font-family: sans-serif;
+    color: #3c3939;
+    font-size: 25px;
+}
+.left-about p{
+    padding-top: 30px;
+    font-family: sans-serif;
+    color: #443d3d;
+    word-spacing: 2px;
+}
+.left-about img{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.right-about{
+   padding-top: 80px;
+   font-family: sans-serif;
+}
+.right-about h1{
+    color: #4a4141;
+    font-size: 25px;
+}
+.right-about p{
+    padding-top: 30px;
+    font-family: sans-serif;
+    color: #443d3d;
+    word-spacing: 1px;
+}
+.right-about .Media{
+    font-weight: 700;
+}
+/* about-section-end */
+
+/* facts-section-start */
+#facts {
+    background-image:url(images/bg-1.jpg);
+    width: 100%;
+    height: 330px;   
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    position: relative;
+}
+.bg-image-1::before {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+.same{
+    padding-top: 130px;
+    text-align: center;
+    font-size: 26px;
+
+}
+.same img{
+    width: 40px;
+}
+/* facts-section-end */
+/* speaker-section-start */
+#speaker{
+    margin-top: 50px;
+}
+#speaker h2{
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.line-1{   
+    display: flex;
+    justify-content: space-evenly;
+}
+.JHON{
+    text-align: center;
+}
+.icon img{
+    width: 20px;
+    padding-left:5px;
+}
+
+.line-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+/* speaker-section-end */
+
+/* REGISTRATION-section-start  */
+
+#REGISTRATION h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 27px;
+}
+.PRICING {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.form-1 input{
+    width: 500px;
+    margin-bottom: 25px;
+    height: 40px;
+    margin-right: 25px;
+    padding-left: 10px;
+
+}
+.form-2 input{
+    width: 500px;
+    margin-bottom: 25px;
+    height: 40px;
+    margin-right: 25px;
+    padding-left: 10px;
+}
+.batton{
+    text-align: center;
+}
+.batton button{
+    padding: 8px 30px;
+    background-color: rgb(17, 236, 115);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+.batton button:hover{
+    background-color: rgb(62, 163, 107);
+
+}
+
+ /* REGISTRATION-section-end */
+ /* work-section-start */
+ #WORk{
+    background-color: #6c6b72;
+    height: 300px;
+    text-align: center;
+    padding-top: 90px;
+ }
+
+ #WORk h1{
+    color: white;
+    font-family: sans-serif;
+
+ }
+
+ #WORk p{
+    color: white;
+    font-family: sans-serif;
+    line-height: 27px;
+    padding-top: 12px;
+ }
+ #WORk button{
+    padding: 8px 30px;
+    background-color: rgb(17, 236, 115);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+
+ }
+ #WORk button:hover{
+    background-color: rgb(62, 163, 107);
+ }
+
+ /* work-section-end */
+
+ /* EVENT-section-start */
+ #EVENT{
+    height: 450px;
+ }
+ #EVENT h2{
+    text-align: center;
+    margin: 50px;
+    font-size: 26px;
+    font-family: sans-serif;
+ }
+ .intro{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .Welcome{
+    border: 2px double  #08e309;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    line-height: 36px;
+    padding-top: 90px;
+    background: black;
+    cursor: pointer;
+
+ }
+ /* EVENT-section-end */
+
+ /* EVENT-PARTNER-section-start */
+ #EVENT-PARTNER{
+     height: 450px;
+ }
+#EVENT-PARTNER h1{
+    font-size: 28px;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+    text-align: center;
+}
+ 
+ .image img{
+    padding: 0px 30px;
+    cursor: pointer;
+
+    margin-left: 96px;
+    padding-bottom: 60px;
+}
+/* EVENT-PARTNER-section-end */
+/* EVENT-FAQS-section-start  */
+#EVENT-FAQS{
+height: 450px;
+}
+#EVENT-FAQS h1{
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.ticket{
+    border: 1px solid;
+    width: 80%;
+    margin-left: 140px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background: black;
+
+}
+.ticket h2{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+/* EVENT-FAQS-section-end */
+/* photos-section-start  */
+#PHOTOS h1{
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.doctor{
+    margin-left: 100px;
+}
+/* photos-section-end */
+/* location-section-start */
+#LOCATION h1{
+    text-align: center;
+    padding: 50px 0px;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+.location{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+
+}
+
+.text p{
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+/* location-section-end */
+/* footer-section-start */
+#footer{
+    height: 250px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    background: #425199;
+    padding: 100px;
+}
+#footer p{
+    font-size: 22px;
+    font-family: sans-serif;
+    padding-bottom: 18px;
+}
+/* footer-section-end */
